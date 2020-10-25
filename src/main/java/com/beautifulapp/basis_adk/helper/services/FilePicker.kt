@@ -25,13 +25,15 @@ class FilePicker(c: Context?, vm: CustomViewModel, rqC: Int, @StyleRes styleId: 
     val onActivityResultAction = { requestCode: Int, resultCode: Int, data: Intent? ->
         if (requestCode == requestTakePhoto && resultCode == Activity.RESULT_OK) {
             photoUri?.let { fileUri.value = it }
-            //fileUri.value = fileUri.value
         }
         if (requestCode == requestPickWithExplorer && resultCode == Activity.RESULT_OK) fileUri.postValue(
             data?.data
         )
     }
 
+    /**
+     * show dialog to choose a file or take photo
+     */
     val show = { v: View? ->
         filePicker(v?.context ?: vm.app, styleId) { intent, uri ->
             val taken = uri != null
@@ -47,6 +49,9 @@ class FilePicker(c: Context?, vm: CustomViewModel, rqC: Int, @StyleRes styleId: 
         }
     }
 
+    /**
+     * show dialog to choose a image file or take photo
+     */
     val showImagePicker = { v: View? ->
         imagePicker(v?.context ?: vm.app, styleId) { intent, uri ->
             val taken = uri != null

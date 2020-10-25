@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Basis_ADK</string>
+    <!-- ImagePicker text -->
+    <string name="photo">📷\t\t Prendre une photo</string>
+    <string name="galerie">🖼️\t\t Selectionner depuis la galerie</string>
+    <string name="document">📂\t\t Selectionner depuis l\'explorateur de fichier</string>
+
+    <!-- Others text -->
+    <string name="empty_field">Champs non renseigné</string>
+    <string name="invalid_field">Donnée non valide</string>
+    <string name="action_required">Une action est requise sur cette vue</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="picture_choices">
+        <item>@string/photo</item>
+        <item>@string/galerie</item>
+    </string-array>
+
+    <string-array name="file_choices">
+        <item>@string/photo</item>
+        <item>@string/galerie</item>
+        <item>@string/document</item>
+    </string-array>
+
+</resources>

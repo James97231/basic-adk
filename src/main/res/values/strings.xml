@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Basis_ADK</string>
+    <!-- ImagePicker text -->
+    <string name="photo">📷\t\t Take a photo</string>
+    <string name="galerie">🖼️\t\t Select in the gallery</string>
+    <string name="document">📂\t\t Select file with explorer</string>
+
+    <!-- Others text -->
+    <string name="empty_field">Fields not completed</string>
+    <string name="invalid_field">invalid field</string>
+    <string name="action_required">Action is required on this view</string>
+</resources>
